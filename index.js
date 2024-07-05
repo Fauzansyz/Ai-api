@@ -24,9 +24,8 @@ app.get('/api/:message', (req, res) => {
 });
 
 // Mulai server
-/*app.listen(port, () => {
+app.listen(port, () => {
   console.log(`Server berjalan di http://localhost:${port}`);
 });
-*/
 
-module.exports = app
+
